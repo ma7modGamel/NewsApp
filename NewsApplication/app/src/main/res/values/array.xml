@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="listArray">
+        <item>small </item>
+
+        <item>large</item>
+        <item>All Data</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>4</item>
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+</resources>

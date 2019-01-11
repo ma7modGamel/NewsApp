@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="todo">TODO</string>
+    <string name="txtNoInternrt">please connect to internet</string>
+    <string name="noNews">no news available ..Click here to refresh data</string>
+
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">newsApp Settings</string>
+
+    <string name="settings_min_num_label">Minimum Number Items</string>
+    <string name="settings_min_num_key" translatable="false">min_items</string>
+    <string name="settings_min_numItem_default" translatable="false">10</string>
+    <string name="restart">Restarting app</string>
+</resources>

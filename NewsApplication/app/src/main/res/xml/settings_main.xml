@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:title="@string/settings_title">
+
+        <PreferenceCategory
+            android:title="@string/settings_min_num_label">
+        <ListPreference
+            android:defaultValue="@string/settings_min_numItem_default"
+            android:inputType="numberDecimal"
+            android:key="@string/settings_min_num_key"
+            android:entries="@array/listArray"
+
+            android:title="change number of items news"
+            android:summary="10"
+            android:entryValues="@array/listValues"
+            android:id="@+id/radio_value"
+            android:selectAllOnFocus="true"
+
+            />
+        </PreferenceCategory>
+
+
+</PreferenceScreen>
